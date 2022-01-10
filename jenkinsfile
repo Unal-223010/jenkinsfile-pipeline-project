@@ -3,15 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-<<<<<<< HEAD
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
-=======
-                echo "First deneme-tekrar"
-                echo "Clarusway_Way to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
->>>>>>> cab430c748d48ed71993f08e12b3d1e2a11ae950
             }
         }
     }
