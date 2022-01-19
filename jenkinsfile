@@ -13,10 +13,9 @@ pipeline {
                 sh 'java Hello'
              }
          }
-         stage('run') {
+         stage('oyle') {
             steps {
-                echo 'Running the compiled java code.'
-                sh 'java Hello'
+                echo 'Bu is bu kadar'
                 
             }
         }
